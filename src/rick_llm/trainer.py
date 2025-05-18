@@ -17,7 +17,7 @@ class ModelTrainer:
 
     def _load_dataset(self):
         dataset = load_dataset(
-            "theneuralmaze/rick-and-morty-transcripts-sharegpt", split="train"
+            "TBBTLovers/rick-and-morty-transcripts-sharegpt", split="train"
         )
         return standardize_sharegpt(dataset)
 

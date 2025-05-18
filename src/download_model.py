@@ -27,7 +27,7 @@ def download_model(repo_id, filename, dest_folder="ollama_files"):
 
 if __name__ == "__main__":
     # Based on the repository shown in the finetune.py file
-    repo_id = "theneuralmaze/RickLLama-3.1-8B"
+    repo_id = "TBBTLovers/RickLLama-3.1-8B"
 
     # Download the GGUF model file
     download_model(repo_id, "unsloth.Q8_0.gguf")
