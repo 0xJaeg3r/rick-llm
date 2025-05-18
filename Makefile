@@ -8,9 +8,9 @@ setup:
 	pip install transformers==4.47.1 unsloth xformers
 
 # Create Hugging Face dataset
-create-dataset:
-	@echo "Creating HF dataset..."
-	python src/rick_llm/dataset.py
+#create-dataset:
+#	@echo "Creating HF dataset..."
+#	python src/rick_llm/dataset.py
 
 # Download the base model
 download-model:
